@@ -4,7 +4,7 @@ using System.Text.Json;
 using log4net;
 using System.Configuration;
 
-namespace Resize_Game
+namespace Game_Resize
 {
     public partial class MainForm : Form
     {

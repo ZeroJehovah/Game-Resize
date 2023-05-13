@@ -2,7 +2,7 @@ using log4net.Config;
 using log4net;
 
 
-namespace Resize_Game
+namespace Game_Resize
 {
     static class Program
     {
