@@ -93,7 +93,7 @@ namespace Resize_Game
                 // 如果目标窗口获取焦点，则改变为原尺寸
                 change2original();
             }
-            else if (currentFocus != targetForm && currentFocusTitle != string.Empty && currentFocusTitle != this.Text && currentFocusTitle != "任务切换" && currentFocusTitle != "任务视图")
+            else if (currentFocus != targetForm && currentFocusTitle != string.Empty && currentFocusTitle != this.Text && currentFocusTitle != "任务切换" && currentFocusTitle != "任务视图" && currentFocusTitle != "搜索")
             {
                 // 如果目标窗口失去焦点，并且焦点标题不为空，并且焦点标题不是本程序，则改变为缩小尺寸
                 change2small();
@@ -300,12 +300,14 @@ namespace Resize_Game
             }
             log.Info("set icon as target form icon");
             notifyIcon.Icon = icon;
+            notifyIcon.Text = TARGET_FORM_TITLE + "摸鱼中";
         }
 
         private void resetIcon()
         {
             log.Info("reset icon to default");
             notifyIcon.Icon = new Icon("resources/icon.ico");
+            notifyIcon.Text = TARGET_FORM_TITLE + "摸鱼小助手";
         }
 
         private struct RECT
