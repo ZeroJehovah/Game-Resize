@@ -7,8 +7,8 @@ ChatGPT提供了大量帮助。
 1. 下载[最新版本](https://github.com/ZeroJehovah/Game-Resize/releases)并解压；
    > 如果是更新版本，则不要替换原来的```Game_Resize.dll.config```文件
 2. ```Game_Resize.dll.config```文件中，需要配置以下选项：
-   > SmallRectWidth: 缩小后的窗口宽度，可自行设置，初始化后生效
-   > TargetClassName: 需要缩小的窗口的类名，可通过[Window Detective](https://windowdetective.sourceforge.io/)等工具获取
+   > SmallRectWidth: 缩小后的窗口宽度，可自行设置，初始化后生效  
+   > TargetClassName: 需要缩小的窗口的类名，可通过[Window Detective](https://windowdetective.sourceforge.io/)等工具获取  
    > TargetFormTitle: 需要缩小的窗口的标题
 3. 启动程序
 # 常见问题

@@ -47,6 +47,15 @@ partial class MainForm
         contextMenuStrip.Items.Add("-");
         contextMenuStrip.Items.Add(menuItem_exit);
         notifyIcon.ContextMenuStrip = contextMenuStrip;
+        
+        // ToolStripMenuItem menuItem_test_small = new ToolStripMenuItem();
+        // ToolStripMenuItem menuItem_test_original = new ToolStripMenuItem();
+        // menuItem_test_small.Text = "测试缩小";
+        // menuItem_test_small.Click += MenuItem_Test_Small_Click;
+        // menuItem_test_original.Text = "测试恢复";
+        // menuItem_test_original.Click += MenuItem_Test_Original_Click;
+        // contextMenuStrip.Items.Add(menuItem_test_small);
+        // contextMenuStrip.Items.Add(menuItem_test_original);
     }
 
     #endregion
