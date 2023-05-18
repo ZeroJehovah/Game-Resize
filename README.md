@@ -1,3 +1,5 @@
+本程序有新的python实现，功能更多，详见[FishEase](https://github.com/ZeroJehovah/FishEase)
+
 # 简介
 一个简单的，使用C#语言编写的，用于摸鱼的小工具。  
 ChatGPT提供了大量帮助。
